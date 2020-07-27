@@ -1,3 +1,7 @@
+console.log('###################################');
+console.log('Printing to Console');
+console.log('###################################');
+
 // Log to console
 console.log('Hello World');
 console.log(123);
