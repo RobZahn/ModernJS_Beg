@@ -8,7 +8,10 @@
       body {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
         background-color: #faf;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
 
       h1 {
@@ -17,9 +20,29 @@
         text-align: center;
         background-color: #333;
         color: #fff;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
         border-bottom: 2px solid #111;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #111;
+      }
+
+      li {
+        text-align: center;
+        border: 1px solid #111;
+        background-color: #333;
+        color: #fff;
+        text-transform: uppercase;
+        list-style: none;
+        padding: 0.5rem 0;
+        cursor: pointer;
+      }
+
+      li:hover {
+        opacity: 85%;
       }
     </style>
   </head>
@@ -41,5 +64,6 @@
     <script src="switches.js"></script>
     <script src="funcDeclarationsAndExpressions.js"></script>
     <script src="generalLoops.js"></script>
+    <script src="windowObject.js"></script>
   </body>
 </html>
